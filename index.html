@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="img"></div>
+        <form action="" method="get">
+            <h1 id="titulo">Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e utilizar o aplicativo</p>
+            
+            <label for="iemail">
+                <div class="dados">
+                    <input type="email" name="email" id="iemail" placeholder="Seu E-mail" required>
+                </div>
+            </label>
+                <label for="isenha">
+                    <div class="dados">
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" required>
+                    </div>
+                </label>
+
+            <input type="submit" value="Entrar" id="entrar" onclick="entrar()">
+            <input type="button" value="Esqueci a senha" id="esenha" onclick="esqueceusenha()">
+        </form>
+    </main>
+
+    <script>
+        function entrar(){
+            alert('Isso é apenas um teste, não foi possível encontrar o usuário!')
+        }
+
+        function esqueceusenha(){
+            alert("Isso é apenas um teste!")
+        }
+    </script>
+</body>
+</html>
